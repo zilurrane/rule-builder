@@ -126,7 +126,7 @@ export default class RuleGroup extends React.Component {
   }
 
   onDrop(event) {
-    let json = event.dataTransfer.getData("text/plain");
+//     let json = event.dataTransfer.getData("text/plain");
     this.addRule(JSON.parse(event.dataTransfer.getData("text/plain")));
   }
 
